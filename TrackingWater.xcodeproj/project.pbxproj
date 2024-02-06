@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F65D75A2B72B68600B7D2E3 /* TrackingWaterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F65D7592B72B68600B7D2E3 /* TrackingWaterApp.swift */; };
+		1F65D75C2B72B68600B7D2E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F65D75B2B72B68600B7D2E3 /* ContentView.swift */; };
+		1F65D75E2B72B68600B7D2E3 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F65D75D2B72B68600B7D2E3 /* Item.swift */; };
+		1F65D7602B72B68700B7D2E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F65D75F2B72B68700B7D2E3 /* Assets.xcassets */; };
+		1F65D7632B72B68700B7D2E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F65D7622B72B68700B7D2E3 /* Preview Assets.xcassets */; };
+		1F65D76D2B72B68700B7D2E3 /* TrackingWaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F65D76C2B72B68700B7D2E3 /* TrackingWaterTests.swift */; };
+		1F65D7772B72B68700B7D2E3 /* TrackingWaterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F65D7762B72B68700B7D2E3 /* TrackingWaterUITests.swift */; };
+		1F65D7792B72B68700B7D2E3 /* TrackingWaterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F65D7782B72B68700B7D2E3 /* TrackingWaterUITestsLaunchTests.swift */; };
+		1F65D7862B72B70000B7D2E3 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F65D7852B72B70000B7D2E3 /* SecondView.swift */; };
+		1F65D7882B72B72400B7D2E3 /* WaveShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F65D7872B72B72400B7D2E3 /* WaveShape.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F65D7692B72B68700B7D2E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F65D74E2B72B68600B7D2E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F65D7552B72B68600B7D2E3;
+			remoteInfo = TrackingWater;
+		};
+		1F65D7732B72B68700B7D2E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F65D74E2B72B68600B7D2E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F65D7552B72B68600B7D2E3;
+			remoteInfo = TrackingWater;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F65D7562B72B68600B7D2E3 /* TrackingWater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackingWater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F65D7592B72B68600B7D2E3 /* TrackingWaterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingWaterApp.swift; sourceTree = "<group>"; };
+		1F65D75B2B72B68600B7D2E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1F65D75D2B72B68600B7D2E3 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		1F65D75F2B72B68700B7D2E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F65D7622B72B68700B7D2E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F65D7682B72B68700B7D2E3 /* TrackingWaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackingWaterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F65D76C2B72B68700B7D2E3 /* TrackingWaterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingWaterTests.swift; sourceTree = "<group>"; };
+		1F65D7722B72B68700B7D2E3 /* TrackingWaterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackingWaterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F65D7762B72B68700B7D2E3 /* TrackingWaterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingWaterUITests.swift; sourceTree = "<group>"; };
+		1F65D7782B72B68700B7D2E3 /* TrackingWaterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingWaterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1F65D7852B72B70000B7D2E3 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		1F65D7872B72B72400B7D2E3 /* WaveShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveShape.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F65D7532B72B68600B7D2E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F65D7652B72B68700B7D2E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F65D76F2B72B68700B7D2E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F65D74D2B72B68600B7D2E3 = {
+			isa = PBXGroup;
+			children = (
+				1F65D7582B72B68600B7D2E3 /* TrackingWater */,
+				1F65D76B2B72B68700B7D2E3 /* TrackingWaterTests */,
+				1F65D7752B72B68700B7D2E3 /* TrackingWaterUITests */,
+				1F65D7572B72B68600B7D2E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F65D7572B72B68600B7D2E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F65D7562B72B68600B7D2E3 /* TrackingWater.app */,
+				1F65D7682B72B68700B7D2E3 /* TrackingWaterTests.xctest */,
+				1F65D7722B72B68700B7D2E3 /* TrackingWaterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F65D7582B72B68600B7D2E3 /* TrackingWater */ = {
+			isa = PBXGroup;
+			children = (
+				1F65D7592B72B68600B7D2E3 /* TrackingWaterApp.swift */,
+				1F65D75B2B72B68600B7D2E3 /* ContentView.swift */,
+				1F65D75D2B72B68600B7D2E3 /* Item.swift */,
+				1F65D75F2B72B68700B7D2E3 /* Assets.xcassets */,
+				1F65D7612B72B68700B7D2E3 /* Preview Content */,
+				1F65D7852B72B70000B7D2E3 /* SecondView.swift */,
+				1F65D7872B72B72400B7D2E3 /* WaveShape.swift */,
+			);
+			path = TrackingWater;
+			sourceTree = "<group>";
+		};
+		1F65D7612B72B68700B7D2E3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1F65D7622B72B68700B7D2E3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1F65D76B2B72B68700B7D2E3 /* TrackingWaterTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F65D76C2B72B68700B7D2E3 /* TrackingWaterTests.swift */,
+			);
+			path = TrackingWaterTests;
+			sourceTree = "<group>";
+		};
+		1F65D7752B72B68700B7D2E3 /* TrackingWaterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F65D7762B72B68700B7D2E3 /* TrackingWaterUITests.swift */,
+				1F65D7782B72B68700B7D2E3 /* TrackingWaterUITestsLaunchTests.swift */,
+			);
+			path = TrackingWaterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F65D7552B72B68600B7D2E3 /* TrackingWater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F65D77C2B72B68700B7D2E3 /* Build configuration list for PBXNativeTarget "TrackingWater" */;
+			buildPhases = (
+				1F65D7522B72B68600B7D2E3 /* Sources */,
+				1F65D7532B72B68600B7D2E3 /* Frameworks */,
+				1F65D7542B72B68600B7D2E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrackingWater;
+			productName = TrackingWater;
+			productReference = 1F65D7562B72B68600B7D2E3 /* TrackingWater.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F65D7672B72B68700B7D2E3 /* TrackingWaterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F65D77F2B72B68700B7D2E3 /* Build configuration list for PBXNativeTarget "TrackingWaterTests" */;
+			buildPhases = (
+				1F65D7642B72B68700B7D2E3 /* Sources */,
+				1F65D7652B72B68700B7D2E3 /* Frameworks */,
+				1F65D7662B72B68700B7D2E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F65D76A2B72B68700B7D2E3 /* PBXTargetDependency */,
+			);
+			name = TrackingWaterTests;
+			productName = TrackingWaterTests;
+			productReference = 1F65D7682B72B68700B7D2E3 /* TrackingWaterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F65D7712B72B68700B7D2E3 /* TrackingWaterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F65D7822B72B68700B7D2E3 /* Build configuration list for PBXNativeTarget "TrackingWaterUITests" */;
+			buildPhases = (
+				1F65D76E2B72B68700B7D2E3 /* Sources */,
+				1F65D76F2B72B68700B7D2E3 /* Frameworks */,
+				1F65D7702B72B68700B7D2E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F65D7742B72B68700B7D2E3 /* PBXTargetDependency */,
+			);
+			name = TrackingWaterUITests;
+			productName = TrackingWaterUITests;
+			productReference = 1F65D7722B72B68700B7D2E3 /* TrackingWaterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F65D74E2B72B68600B7D2E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					1F65D7552B72B68600B7D2E3 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					1F65D7672B72B68700B7D2E3 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 1F65D7552B72B68600B7D2E3;
+					};
+					1F65D7712B72B68700B7D2E3 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 1F65D7552B72B68600B7D2E3;
+					};
+				};
+			};
+			buildConfigurationList = 1F65D7512B72B68600B7D2E3 /* Build configuration list for PBXProject "TrackingWater" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F65D74D2B72B68600B7D2E3;
+			productRefGroup = 1F65D7572B72B68600B7D2E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F65D7552B72B68600B7D2E3 /* TrackingWater */,
+				1F65D7672B72B68700B7D2E3 /* TrackingWaterTests */,
+				1F65D7712B72B68700B7D2E3 /* TrackingWaterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F65D7542B72B68600B7D2E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F65D7632B72B68700B7D2E3 /* Preview Assets.xcassets in Resources */,
+				1F65D7602B72B68700B7D2E3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F65D7662B72B68700B7D2E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F65D7702B72B68700B7D2E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F65D7522B72B68600B7D2E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F65D75C2B72B68600B7D2E3 /* ContentView.swift in Sources */,
+				1F65D7882B72B72400B7D2E3 /* WaveShape.swift in Sources */,
+				1F65D75E2B72B68600B7D2E3 /* Item.swift in Sources */,
+				1F65D7862B72B70000B7D2E3 /* SecondView.swift in Sources */,
+				1F65D75A2B72B68600B7D2E3 /* TrackingWaterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F65D7642B72B68700B7D2E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F65D76D2B72B68700B7D2E3 /* TrackingWaterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F65D76E2B72B68700B7D2E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F65D7772B72B68700B7D2E3 /* TrackingWaterUITests.swift in Sources */,
+				1F65D7792B72B68700B7D2E3 /* TrackingWaterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F65D76A2B72B68700B7D2E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F65D7552B72B68600B7D2E3 /* TrackingWater */;
+			targetProxy = 1F65D7692B72B68700B7D2E3 /* PBXContainerItemProxy */;
+		};
+		1F65D7742B72B68700B7D2E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F65D7552B72B68600B7D2E3 /* TrackingWater */;
+			targetProxy = 1F65D7732B72B68700B7D2E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F65D77A2B72B68700B7D2E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F65D77B2B72B68700B7D2E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F65D77D2B72B68700B7D2E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TrackingWater/Preview Content\"";
+				DEVELOPMENT_TEAM = 9HLRZXHR68;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexander-Afonin.TrackingWater";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F65D77E2B72B68700B7D2E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TrackingWater/Preview Content\"";
+				DEVELOPMENT_TEAM = 9HLRZXHR68;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexander-Afonin.TrackingWater";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F65D7802B72B68700B7D2E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9HLRZXHR68;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexander-Afonin.TrackingWaterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackingWater.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrackingWater";
+			};
+			name = Debug;
+		};
+		1F65D7812B72B68700B7D2E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9HLRZXHR68;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexander-Afonin.TrackingWaterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackingWater.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrackingWater";
+			};
+			name = Release;
+		};
+		1F65D7832B72B68700B7D2E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9HLRZXHR68;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexander-Afonin.TrackingWaterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrackingWater;
+			};
+			name = Debug;
+		};
+		1F65D7842B72B68700B7D2E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9HLRZXHR68;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexander-Afonin.TrackingWaterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrackingWater;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F65D7512B72B68600B7D2E3 /* Build configuration list for PBXProject "TrackingWater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F65D77A2B72B68700B7D2E3 /* Debug */,
+				1F65D77B2B72B68700B7D2E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F65D77C2B72B68700B7D2E3 /* Build configuration list for PBXNativeTarget "TrackingWater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F65D77D2B72B68700B7D2E3 /* Debug */,
+				1F65D77E2B72B68700B7D2E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F65D77F2B72B68700B7D2E3 /* Build configuration list for PBXNativeTarget "TrackingWaterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F65D7802B72B68700B7D2E3 /* Debug */,
+				1F65D7812B72B68700B7D2E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F65D7822B72B68700B7D2E3 /* Build configuration list for PBXNativeTarget "TrackingWaterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F65D7832B72B68700B7D2E3 /* Debug */,
+				1F65D7842B72B68700B7D2E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F65D74E2B72B68600B7D2E3 /* Project object */;
+}
